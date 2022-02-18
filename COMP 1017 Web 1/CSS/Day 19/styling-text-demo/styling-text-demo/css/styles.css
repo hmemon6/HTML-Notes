@@ -1,0 +1,68 @@
+body {
+	background-color: white;
+}
+
+.container {
+	
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	text-align: center;
+	/*google font*/
+	font-family: 'Lato', sans-serif;
+}
+
+/*typography*/
+h1
+{
+	font-size: 96px;
+	letter-spacing: -2px;
+	word-spacing: 5px;
+}
+h2
+{
+	font-size: 36px;
+	color: #3d4245;
+}
+p
+{
+	font-size: 20px;
+	color: #9b9d9c;
+}
+span
+{
+	color: red;
+}
+.page-header p
+{
+	font-size: 48px;
+}
+.page-header :nth-child(3)
+{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+/* layout */
+.page-header
+{
+	margin: 72px 0 120px 0;
+}
+section
+{
+	margin-bottom: 196px;
+	padding: 0 24px;
+}
+section p
+{
+	margin-bottom: 24px;
+}
+section header img
+{
+	width: 80px;
+}
+section footer img
+{
+	margin: 0 15px;
+}

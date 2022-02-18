@@ -1,0 +1,63 @@
+body {
+	background-color: lightcoral;
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+
+}
+/*typography*/
+h1,
+h2
+{
+padding: 10px;
+text-align: center;
+font-family: arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #747474;
+}
+/*layout*/
+nav
+{
+	background-color: #ddd;
+	margin-top: 24px;
+}
+header
+{
+	height: 450px;
+	background-color: #ddd;
+	margin-top: 24px;
+}
+main 
+{
+	height: 800px;
+	background-color: #ddd;
+	margin-top: 24px;
+
+}
+
+footer
+{
+	height: 150px;
+	background-color: #ddd;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+/*width is determind by 
+margin left+borderleft+ marginright + border right
+30+2+2+30 = 64px out of total 960px bcz in reset style and container
+so 960 - 64 = 896px*/
+
+main section 
+{
+	margin: 30px ;
+	border: 2px solid black;
+	height: 200px;
+	background-color: white;
+	width: 896px;
+
+}

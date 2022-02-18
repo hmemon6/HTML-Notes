@@ -1,0 +1,106 @@
+/*inheritance*/
+
+body
+
+ {
+   font-family: verdana, sans-serif;
+ }
+
+ /*specificity*/
+
+main section h2
+{
+	color: palevioletred;
+}
+section h2 
+{
+	color: mediumaquamarine;
+}
+
+ h2
+ {
+ 	color: orange;
+ }
+ 
+ footer
+ {
+ 	background-color: #333333;
+ }
+
+/* multiple selectors */
+ 
+ footer,
+ footer a 
+ {
+ 	color: white;
+ }
+
+ /*descendant selectorss*/
+ nav ul
+ {
+ 	background-color: #dedede;
+ }
+
+ nav ul li 
+ {
+ 	border-bottom: 3px solid #333;
+ }
+ nav ul li a
+ {
+ 	text-decoration: none;
+ }
+
+ /*pseudo class - target elements in a certain 
+ state (eg:  mousing over things)*/
+
+nav ul li a:hover 
+{
+	color:  blue;
+	font-weight: bold;
+}
+/*class selectors*/
+
+
+/*target all ul with the class navigation*/
+/*NO SPACE*/
+
+ul.navigation li
+{
+	list-style: none;
+}
+ul.navigation
+{
+	list-style: square;
+}
+
+/*ul will not override class bcz its not specific the value
+to infdividual elemnt is 10 while aobve class ul ha s11 so it
+wins wven though its written first and not lasst*/
+ul
+{
+	list-style: none;
+}
+
+
+footer
+{
+	/*longhand method*/
+	/*padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	padding-left: 50px;*/
+
+}
+
+
+footer
+{
+	/*top & bottom | right & left*/
+	/*padding: 3-px 0;*/
+
+}
+footer
+{
+	/*top | right&left | bottom*/
+	padding: 100px 50px 25px;
+}

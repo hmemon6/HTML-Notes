@@ -1,0 +1,5 @@
+Notes
+
+Three of your content pages will look largely the same. Only one screenshot has been provided.
+
+These screenshots were created using OS X (an Apple operating system); therefore, if you are creating your website on a Windows operating system, the default browser styles (including the fonts) will look different. This is to be expected.

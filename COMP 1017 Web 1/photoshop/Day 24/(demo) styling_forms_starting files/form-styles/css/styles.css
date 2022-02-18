@@ -1,0 +1,108 @@
+body {
+     background-color: white;
+     background-image: url(../img/page-background.gif);
+     background-repeat: repeat-x;
+}
+ .container {
+     width: 960px;
+     margin: 0 auto;
+     font-size: 100%;
+     line-height: 1.5;
+     text-align: center;
+    /*google fonts*/
+     font-family: 'Montserrat', sans-serif;
+}
+/*margin: 0 auto;
+ the top/bottom margin is 0, and the left/right margin is auto. Auto means that the left and right margin are automatically set by the browser based on the container, to make element centered.*/
+/* Nav Element */
+ .hidden {
+     display: none;
+}
+ .site-navigation {
+     height: 155px;
+}
+ .site-navigation img {
+     margin-top: 16px;
+}
+ .site-navigation ul {
+     width: 490px;
+     margin: 0 auto;
+     display: flex;
+}
+ .site-navigation li {
+     margin: 8px 25px;
+}
+ .site-navigation a {
+     color: white;
+     text-decoration: none;
+}
+ .site-navigation a:hover {
+     padding-bottom: 2px;
+     border-bottom: 1px solid white;
+}
+/* Header Element */
+ .contact-us h1 {
+     line-height: 0.8;
+     font-size: 72px;
+     color: #7a777c;
+     width: 450px;
+     border-bottom: 3px solid #d9d9d9;
+     margin: auto;
+     margin-top: 115px;
+     padding-bottom: 42px;
+}
+/*form styling*/
+ input, button{
+     background-color: #efefef;
+     border: 1px solid #c4c4c4;
+     line-height: 30px;
+    /*Total width is 360 - 48 px = 312px 48 is padding left*/
+     width: 312px;
+     padding-left: 48px;
+}
+ textarea{
+     background-color: #efefef;
+     border: 1px solid #c4c4c4;
+     line-height: 30px;
+     padding-left: 48px;
+     max-width: 312px;
+     min-width: 312px;
+     max-height: 156px;
+     min-height: 156px;
+     background-image: url(../img/message-icon.gif);
+     background-repeat: no-repeat;
+}
+ label{
+     font-family: verdana, sans-serif;
+     display: block;
+     font-size: 12px;
+     color: #c4c4c4;
+}
+ main{
+     margin-bottom: 200px;
+}
+ form div{
+     margin-top: 50px;
+}
+ .your-name input{
+     background-image: url(../img/name-icon.gif);
+     background-repeat: no-repeat;
+}
+ .email-address input{
+     background-image: url(../img/email-icon.gif);
+     background-repeat: no-repeat;
+}
+ .phone-number input{
+     background-image: url(../img/telephone-icon.gif);
+     background-repeat: no-repeat;
+}
+ .submit-button button{
+     text-align: center;
+     width: 120px;
+     color: #8a8b8e;
+     padding: 0;
+}
+ .submit-button button:hover{
+     cursor: pointer;
+}
+ 

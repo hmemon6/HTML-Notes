@@ -1,0 +1,280 @@
+body {
+     background-color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 300;
+}
+ .container{
+     margin:0 auto;
+     width:960px;
+     font-size: 100%;
+     line-height: 1.5;
+}
+ .hidden{
+     display: none;
+}
+ .header-top {
+     background-color: #435831;
+     height: 100px;
+     color: #ffffff;
+}
+ .header-top nav a{
+     text-decoration: none;
+     color: #ffffff;
+}
+ .header-list a:hover{
+     border-bottom: 2px solid #ffffff;
+}
+ .header-list{
+     padding-right: 39px;
+     font-size: 30px;
+     line-height: 100px;
+}
+ .the-succ-shop{
+     padding-right: 494px;
+     font-size: 24px;
+     line-height: 100px;
+}
+ .header-top nav{
+     display: flex;
+}
+ .header-top nav ul {
+     display: flex;
+}
+ .header-top img{
+     padding: 11px 17px 12px 11px;
+}
+ .header-bottom {
+     background-image: url(../img/header-grapes.jpg);
+     background-repeat: no-repeat;
+}
+ .header-bottom p:nth-child(1){
+     font-size: 60px;
+     font-family: 'Playfair Display', serif;
+     color: #ffffff;
+     line-height: 60px;
+     text-align: left;
+     padding: 102px 440px 45px 49px;
+     font-weight: 400;
+}
+ .header-bottom p:nth-child(2){
+     color: #d8d9d7;
+     font-size: 30px;
+     text-align: left;
+     line-height: 43px;
+     padding: 0 501px 0 49px;
+}
+ .header-bottom .flex{
+     display: flex;
+}
+ .header-bottom a{
+     font-size: 36px;
+     text-align: center;
+     color: #ffffff;
+     text-decoration: none;
+}
+ .header-bottom .rounded-rectangle{
+     display: inline-block;
+     background-color: #435831;
+     margin: 46px 0 105px 50px;
+     border-radius: 10px;
+     padding: 21px 21px 21px 21px;
+}
+ .header-bottom a:hover{
+     border-bottom: 2px solid #ffffff;
+}
+ .about-us{
+     display: flex;
+     margin-top: 105px;
+     color: #19211f;
+}
+ .about-us-left-side{
+     width: 400px;
+}
+ .about-us-left-side img{
+     padding-top: 30px;
+}
+ .about-us-right-side h2{
+     font-size: 72px;
+     font-family: 'Playfair Display', serif;
+     padding-left: 114px;
+     padding-bottom: 30px;
+     font-weight: 400;
+}
+ .about-us-right-side p{
+     font-size: 18px;
+     padding-bottom: 30px;
+     line-height: 20px;
+     font-weight: 400;
+}
+ .about-us-right-side p:nth-child(5){
+     font-size: 14px;
+     padding-bottom: 18px;
+}
+ .about-us-right-side {
+     padding-left: 39px;
+}
+ .succulents{
+     margin-top: 100px;
+}
+ .succulents-background-heading{
+     background-image: url(../img/succulent-flowers.jpg);
+     background-repeat: no-repeat;
+}
+ .succulents h2{
+     display: inline-block;
+     color: #19211f;
+     font-size: 48px;
+     font-family: 'Playfair Display', serif;
+     font-weight: 400;
+}
+ .succulents .white-rectangle {
+     display: inline-block;
+     margin-left: 212px ;
+     margin-top: 70px;
+     margin-bottom: 58px;
+     width: 538px;
+     background-color: #ffffff;
+}
+ main .articles{
+     background-color: #0e1c1c;
+     margin-top: 40px;
+     display: flex;
+     flex-wrap: wrap;
+     height: 1001px;
+     width: 960px;
+}
+ .article-watering-left-side{
+     height: 500px;
+}
+ .article-watering-right-side h3{
+     color: #ffffff;
+     font-family: 'Playfair Display', serif;
+     font-weight: 400;
+     font-size: 36px;
+     padding: 40px 0 49px 38px;
+     width: 442px;
+}
+ .article-watering-right-side p{
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 16px;
+     padding: 0 39px 26px 39px;
+     width: 402px;
+}
+ .article-watering-right-side a{
+     text-decoration: none;
+     display: inline-block;
+     color: #ffffff;
+     padding-top: 61px;
+     margin-left: 39px;
+     font-size: 24px;
+     font-weight: 400;
+}
+ .article-watering-right-side a:hover{
+     border-bottom: 2px solid #ffffff;
+}
+ .article-gardening-left-side, .article-gardening-right-side{
+     height: 500px;
+}
+ .article-gardening-left-side h3{
+     color: #ffffff;
+     font-size: 36px;
+     font-family: 'Playfair Display', serif;
+     font-weight: 400;
+     padding: 42px 100px 48px 39px;
+     width: 341px;
+}
+ .article-gardening-left-side p{
+     padding-left: 40px;
+     padding-right: 48px;
+     line-height: 16px;
+     font-size: 16px;
+     color: #ffffff;
+     width: 392px;
+     font-weight: 400;
+}
+ .article-gardening-left-side a{
+     text-decoration: none;
+     display: inline-block;
+     color: #ffffff;
+     margin-left: 39px;
+     font-size: 24px;
+     font-weight: 400;
+     padding-top: 100px;
+}
+ .article-gardening-left-side a:hover{
+     border-bottom: 2px solid #ffffff;
+}
+ footer .bar{
+     margin: 97px 40px 67px 40px;
+     height: 1px;
+     width: 879px;
+     background-color: #19211f;
+}
+ footer img{
+     margin-left: 439px;
+     padding-bottom: 15px;
+}
+ footer p{
+     margin-left: 414px;
+     font-size: 24px;
+     padding-bottom: 65px;
+}
+ footer .footer-content{
+     display: flex;
+}
+ .shop, .about, .contact {
+    /*960-120 / 3 = 280*/
+     width: 280px;
+     padding-right: 20px;
+}
+ .contact{
+     padding-right: 20px;
+}
+ .contact li{
+     font-weight: 300;
+}
+ .shop{
+     padding-left: 40px;
+}
+ .shop a, .about a{
+     text-decoration: none;
+     color: #0f1f1b;
+}
+ .footer-content li{
+     text-align: center;
+     font-size: 24px;
+     line-height: 29px;
+}
+ .shop a:hover, .about a:hover{
+     border-bottom: 2px solid #19211f;
+}
+ .footer-content h3{
+     font-size: 24px;
+     text-align: center;
+     margin-bottom: 39px;
+     font-weight: 400;
+}
+ .footer-content .footer-succ-shop{
+     padding-bottom: 25px;
+}
+ .footer-content .footer-address{
+     padding-bottom: 30px;
+}
+ .footer-content{
+     margin-bottom: 96px;
+}
+ .copy-write p:nth-child(1){
+     margin-left: 414px;
+     font-size: 16px;
+     padding-bottom: 26px;
+}
+ .copy-write p:nth-child(2){
+     font-size: 16px;
+     font-weight: 300;
+     width: 829px;
+     margin: 0 0 0 0;
+     padding: 0 65px 40px 66px ;
+     text-align: center;
+}

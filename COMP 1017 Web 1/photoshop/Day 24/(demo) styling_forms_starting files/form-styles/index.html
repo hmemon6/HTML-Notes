@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contact James Shoes</title>
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+        <!-- css reset -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <!-- css styles -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="contact-us">
+                <nav class="site-navigation">
+                    <h2 class="hidden">Site Navigation</h2>
+                    <img src="img/the-james-shoes-logo.png" alt="the james mens shoes company logo" />
+                    <ul>
+                        <li><a href="#">loafers</a></li>
+                        <li><a href="#">dress boots</a></li>
+                        <li><a href="#">casual</a></li>
+                        <li><a href="#">work boots</a></li>
+                    </ul>
+                </nav>
+                <h1>Contact Us</h1>
+            </header>
+            <main>
+                <!-- <form> have two attributes we should set, which tells our browser where and how the data will be sent.
+
+                "action" attribute tells the browser where the submitted data will go.
+
+                "method" attribute tells the browser how the submitted data will be sent (GET or POST).
+
+                GET is used for viewing something or retrieving data.
+
+                POST is used to insert/update data.
+
+            <form id="contact-form" action="" method="POST">-->
+                <form id="contact-us" action="" method="POST">
+                    <div class="your-name">
+                        <!-- your "label for" attributes and your "input id" NEED TO MATCH -->
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" name="name" />
+                    </div>
+                    <div class="email-address">
+                        <label for="email">Email-Address</label>
+                        <input id="email" type="text" name="email" />
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="text" name="phone" />
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea id="message"></textarea>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>

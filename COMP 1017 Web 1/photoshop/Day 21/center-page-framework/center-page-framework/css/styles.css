@@ -1,0 +1,48 @@
+body {
+	background-color: white;
+/*	background-image: url(///img/post1-icon.gif);
+	background-repeat: repeat-x;*/
+}
+
+.container {
+	
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	/*background-image: url(///img/post1-icon.gif);*/
+	
+}
+
+.hidden{
+	display: none;
+}
+
+.page-header{
+/*	background-image: url(../img/header-green.png);
+	background-repeat: no-repeat;*/
+
+/*	background-image: url(../img/header-repeat.png);
+	background-repeat: repeat-x;*/
+
+/*	background-image: url(../img/yoga-girl.png);
+	background-repeat: no-repeat;
+	height: 420px;
+	background-position: 540px 60px; 
+	background-size: 200px;  /*height width*/ */
+
+	background-image: url(../img/yoga-girl.png), url(../img/header-green.png);
+	background-repeat: no-repeat, repeat-x;
+	height: 420px;
+	background-position: 540px 60px; 
+	
+}
+
+h1{
+	font-size: 56px;
+	color: #0b777b;
+}
+p{
+	font-size: 26px;
+	color: rgba(11, 119, 123, 0.5);
+}

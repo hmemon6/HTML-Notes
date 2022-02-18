@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Don't forget to change your title element -->
+        <title>Humble pie co Contact Us</title>
+        <!-- css reset goes here -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <!-- css styles goes here -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="background-picture">
+                <header>
+                    <h1 class="hidden">Humble Pie Contact information</h1>
+                    <nav>
+                        <h2 class="hidden">Navigation</h2>
+                        <div class="opaque-nav-bar">
+                            <div class="flex">
+                                <img src="img/humble-pie-logo.png" alt="Humble Pie Co. Logo" />
+                                <ul>
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="menu.pdf">MENU</a></li>
+                                    <li><a href="#">SAY 'ELLO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <main>
+                    <section>
+                        <div class="contact-rectangle">
+                            <h2>CONTACT US</h2>
+                            <p class="primary-para">If you have questions, or just want to congratulate us on what an awesome job we’re doing, use the handy dandy form below.</p>
+                            <p class="secondary-para">You can also use it to place an order for pickup at the following times and locations:</p>
+                            <p class="bold">124 Grande Market</p>
+                            <p>Tuesday from 8:00 am - 3:00 pm</p>
+                            <p class="bold">The Old Strathcona Farmer's Market</p>
+                            <p class="secondary-para">Saturdays from 8:00am - 3:00 pm</p>
+                            <p class="secondary-para">Orders are for a baker's dozen, or 13 pastries, for the price of 12... what a great deal!!</p>
+                            <p class="secondary-para">Please indicate which type of pasty you would like in your message, as well as when and where you would like to pick up your order.</p>
+                            <p class="secondary-para">Please note that your order must be paid in full 24 hours before your pickup date.</p>
+                            <div class="bar"></div>
+                            <form id="contact-us" action="url" method="POST">
+                                <div class="name">
+                                    <label for="name">Name</label>
+                                    <input id="name" type="text" name="name" />
+                                </div>
+                                <div class="email">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="text" name="email" />
+                                </div>
+                                <div class="message">
+                                    <label for="message">Message</label>
+                                    <textarea id="message"></textarea>
+                                </div>
+                                <div class="check-box">
+                                    <input id="checkbox" type="checkbox" name="checkbox" />
+                                    <label for="checkbox">I am most likely not a robot.</label>
+                                </div>
+                                <div class="send-button">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </main>
+            </div>
+
+            <footer class="contact-footer">
+                <p>CONNET WITH US ON SOCIAL MEDIA</p>
+                <div class="flex">
+                    <div class="space">
+                        <a href="https://www.facebook.com/"><img src="img/facebook-icon.png" alt="Facebook Icon" /></a>
+                    </div>
+                    <a href="https://www.instagram.com/?hl=en"><img src="img/instagram-icon.png" alt="Instagram Icon" /></a>
+                    <a href="https://twitter.com/?lang=en"><img src="img/twitter-icon.png" alt="Twitter Icon" /></a>
+                </div>
+                <p>This website was created for academic purposes only. Any resemblance to other websites or businesses, real or fictional, is purely coincidental.</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body
+{
+	background-color: lightblue;
+}
+
+body
+{
+	font-family:verdana, sans-serif;
+	color: red;
+}
+
+p
+{
+	color: green;
+}
+p
+{
+	color: black;
+}
+
+.even
+{
+	color: green;
+	
+}
+.weight
+{
+	font-weight: bold;
+}
+
+.fsize
+{
+	font-size: 45px;
+}
+/*.customp
+{
+	font-size: 45px;
+	font-weight: bold;
+	color:  green;
+}*/
+
+p
+{
+	width: 400px;
+	margin: 85px;
+	border: black 4px dotted;
+	padding: 25px;
+}

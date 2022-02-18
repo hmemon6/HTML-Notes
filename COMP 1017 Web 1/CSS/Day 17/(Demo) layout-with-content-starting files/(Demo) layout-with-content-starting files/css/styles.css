@@ -1,0 +1,81 @@
+body {
+	background-color: grey;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #333333;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: white;
+}
+/*typography*/
+h1,
+h2
+{
+	font-weight: bold;
+}
+h1
+{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+h2
+{
+	font-size: 18px;
+}
+/*layout*/
+
+.site-header nav
+{
+	margin: 15px 0;	
+}
+
+ul,
+main 
+{
+	display: flex;
+}
+/*calculating nav li widths*/
+/*10 x 2 borders = 20 px*/
+/*15 X 6 margins = 90px*/
+/*960 - 110 = 850px available space*/
+/* 850/ 5 link = 170px */
+
+.site-header nav li 
+{
+	width: 170px;
+	margin-left: 15px;
+	border: 2px solid black;
+	text-align: center;
+}
+.left-right
+{
+	margin: 0 15px;
+}
+
+/*main section width calculations*/
+
+/* 4 x 2 border = 8
+  15 X 3 margin = 45
+  15 X 4 padding secition = 60px 
+  960 - 113 = 847px
+  847/2 = 423.5px
+  */
+main section
+{
+	width: 423.5px;
+	border: 2px solid black;
+	padding: 15px;
+	margin: 15px 0 25px 15px;
+}
+
+
+
+
+
+
+

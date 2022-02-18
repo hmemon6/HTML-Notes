@@ -1,0 +1,64 @@
+body {
+	background-color: white;
+	background-image: url(../img/pattern-bg.gif);
+	/*if no bg repeat is sleected, it will continue to repeat*/
+	
+}
+
+.container {
+	
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	/*google fonts*/
+	font-family: 'Raleway', sans-serif;
+}
+header
+{
+	height: 70px;
+	background-color: #fff;
+	border-bottom: 2px solid #959372;
+	display: flex;
+}
+
+h1
+{
+	font-family: 'Alegreya', serif;
+	font-size: 40px;
+	color: #ff5555;
+	padding-top: 9px;
+	margin-left: 29px;
+}
+.banner{
+	background-image: url(../img/flower-banner.jpg);
+	/*480 - 50 of padding = 430px*/
+	height: 430px;
+	margin-top: 50px;
+	padding: 50px 0px 0px 680px;
+
+}
+.banner h2 {
+	font-family: 'Alegreya', serif;
+	font-size: 36px;
+	color: #f9ea4f;
+}
+header img{
+	margin: 9px;
+}
+
+.banner li{
+	color: #fff;
+	font-size: 18px;
+	/*two ways to add the line height*/
+	line-height: 40px;
+	/*line-height 2.2  (not pixels here) there is a formula to do it*/
+}
+.banner a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.banner a:hover{
+	color: #f9ea4f;
+}

@@ -1,0 +1,65 @@
+/*body
+{
+	background-color: lightsalmon;
+}*/
+
+/*multiple selectors */
+body,
+h1,
+h2,
+p
+{
+	margin: 0px;
+	padding: 0;
+
+}
+
+/*element selectorss*/
+
+body
+{
+	font-family: verdana, sans-serif;
+	/*repeating hex codes of all 6 numebrs like 111111 can be represented by 3*/
+	color: #111;
+
+}
+
+footer
+{
+	padding: 48px;
+	background-color: #dedede;
+/*	border: 6px dotted green;
+	margin-left: 150px;*/
+}
+
+
+h1 
+{
+	padding: 48px;
+	color: #696969;
+	border-bottom: 10px solid #dedede;
+}
+
+/*inheritance*/
+
+/*class selector*/
+.menu-items
+{
+	font-family: courier, serif;
+	list-style-type: none;
+	width: 600px;
+	padding: 24px;
+	border-left: 5px solid red;
+	background-color: #F4F4F4;
+}
+
+/*descendent selectors*/
+
+section
+{
+	font-family: arial, sans-serif;
+	width: 800px;
+	margin: 48px;
+	/*color: blue;*/
+
+}

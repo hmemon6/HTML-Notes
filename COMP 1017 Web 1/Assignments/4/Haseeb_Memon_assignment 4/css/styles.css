@@ -1,0 +1,339 @@
+body {
+     background-color: #faefef;
+     font-family: 'Fjalla One', sans-serif;
+     font-weight: 400;
+}
+ .container {
+     margin:0 auto;
+     width:960px;
+     font-size: 100%;
+     line-height: 1.5;
+}
+ header .hidden{
+     display: none;
+}
+     .header{
+         background-image: url(../img/pizza-background.jpg);
+         background-repeat: no-repeat;
+    }
+     nav .opaque-nav-bar{
+         background-color: rgba( 250, 239, 239, 0.7) 
+    }
+     .flex{
+         display: flex;
+    }
+     nav img{
+         padding: 11px 460px 10px 50px;
+    }
+     nav ul{
+         display: flex;
+    }
+     nav a{
+         text-decoration: none;
+         color: #37342f;
+    }
+     nav a:hover{
+         border-bottom: 2px solid #37342f;
+         cursor: pointer;
+    }
+     nav li{
+         font-size: 24px;
+         line-height: 100px;
+         padding-right: 50px;
+    }
+     header .opaque-rectangle{
+         display: inline-block;
+         border-top: 1px solid #5d4f3e;
+         border-bottom: 1px solid #5d4f3e;
+         border-left: 1px solid #5d4f3e;
+         border-right: 1px solid #5d4f3e;
+         margin: 250px 204px 180px 204px;
+         background-color: rgba(213, 199, 196, 0.75) 
+    }
+     .opaque-rectangle p:nth-child(1){
+         font-size: 72px;
+         color: #f15156;
+         padding-top: 66px;
+         padding-left: 57px;
+         padding-bottom: 39px;
+    }
+     .opaque-rectangle p:nth-child(2){
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         font-size: 24px;
+         color: #2d2824;
+         padding-left: 55px;
+         padding-right: 55px;
+         line-height: 27px;
+    }
+     .opaque-rectangle a{
+         text-decoration: none;
+         display: inline-block;
+         font-size: 30px;
+         color: #faefef;
+         background-color: #f15156;
+         border-radius: 5px;
+         margin: 32px 169px 30px 169px;
+         padding: 20px 30px 18px 33px;
+    }
+     .opaque-rectangle a:hover{
+         text-decoration: underline;
+    }
+     .about-us{
+         margin-top: 100px;
+         display: flex;
+    }
+     .about-us-background-color{
+         width: 480px;
+         background-color: #f5e0e0;
+    }
+     .about-us-background-color h2{
+         font-size: 48px;
+         color: #f15156;
+         padding: 54px 0 25px 136px;
+    }
+     .about-us-background-color p:nth-child(2){
+         font-size: 16px;
+         color: #2d2824;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         line-height: 18px;
+         padding: 0 52px 23px 50px;
+    }
+     .about-us-background-color p:nth-child(3){
+         font-size: 16px;
+         color: #2d2824;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         line-height: 18px;
+         padding: 0 52px 77px 50px;
+    }
+     .find-us{
+         margin-top: 100px;
+         background-image: url(../img/find-us-background.jpg);
+         background-repeat: no-repeat;
+    }
+     .find-us h2{
+         padding: 50px 406px 12px 407px;
+         font-size: 48px;
+         color: #f15156;
+    }
+     .find-us p{
+         font-size: 16px;
+         color: #2d2824;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         padding: 0 57px 0 50px;
+         line-height: 20px;
+    }
+     .find-us a{
+         color: #ed6165;
+    }
+     .flex-wrap{
+         display: flex;
+         flex-wrap: wrap;
+    }
+     .monday, .tuesday, .wednesday, .thursday, .friday, .saturday{
+         width: 270px;
+         margin-right: 50px;
+        /*text-align: center;
+         */
+    }
+     .monday, .tuesday, .wednesday{
+         margin-top: 64px;
+    }
+     .find-us .address{
+         padding-left: 63px;
+         padding-bottom: 20px;
+         text-align: center;
+         font-family: 'Cantarell', sans-serif;
+         font-size: 16px;
+         font-weight: 400;
+         color: #2d2824;
+    }
+     .find-us .days{
+        /*margin-left: 143px;
+         */
+         padding-left: 63px;
+         font-size: 24px;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         color: #2d2824;
+         text-align: center;
+         padding-bottom: 10px;
+    }
+     .find-us .location{
+        /*margin-left: 150px;
+         */
+         padding-left: 63px;
+         padding-bottom: 20px;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 700;
+         font-size: 16px;
+         color: #2d2824;
+         text-align: center;
+    }
+     .find-us .time{
+        /*margin-left: 130px;
+         */
+         text-align: center;
+         padding-left: 63px;
+         padding-bottom: 10px;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         font-size: 16px;
+         color: #2d2824;
+    }
+     .friday, .saturday .time{
+        /*height: 246px;
+         */
+         padding-bottom: 20px;
+    }
+     footer .footer{
+         background-color: #f5e0e0;
+         margin-top: 100px;
+    }
+     .contact-footer{
+         background-color: #f5e0e0;
+    }
+     footer p:nth-child(1){
+         padding: 53px 0 30px 250px;
+         color: #37342f;
+         font-size: 24px;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+    }
+     footer p:nth-child(3){
+         color: #37342f;
+         font-size: 14px;
+         font-family: 'Cantarell', sans-serif;
+         font-weight: 400;
+         padding: 30px 60px 52px 61px;
+         text-align: center;
+    }
+     footer img{
+         padding-right: 20px;
+    }
+     footer .space{
+         margin-left: 363px;
+    }
+     .background-picture{
+         background-image: url(../img/contact-us-background.jpg);
+         background-repeat: no-repeat;
+    }
+     main .contact-rectangle{
+         display: inline-block;
+         border-top: 1px solid #5d4f3e;
+         border-bottom: 1px solid #5d4f3e;
+         border-left: 1px solid #5d4f3e;
+         border-right: 1px solid #5d4f3e;
+         margin: 100px 202px 98px 206px;
+         background-color: rgba(213, 199, 196, 0.75) 
+    }
+     .contact-rectangle h2{
+         font-size: 72px;
+         color: #f15156;
+         padding: 66px 0 0 112px;
+    }
+     .contact-rectangle p{
+         padding-left: 50px;
+         padding-bottom: 20px;
+         color: #2d2824;
+         font-weight: 400;
+         font-family: 'Cantarell', sans-serif;
+    }
+     .contact-rectangle .primary-para{
+         padding-bottom: 35px;
+         padding-right: 84px;
+         font-size: 24px;
+         line-height: 28px;
+    }
+     .contact-rectangle .secondary-para{
+         font-size: 16px;
+         line-height: 20px;
+         padding-right: 61px;
+    }
+     .contact-rectangle .bold{
+         font-weight: 700;
+         padding-bottom: 0;
+    }
+     .contact-rectangle .bar{
+         background-color: #2d2824;
+         height: 2px;
+         width: 440px;
+        /*padding-left: 55px;
+        */
+        /*padding-bottom: 50px;
+        */
+         margin-bottom: 50px;
+         margin-left: 53px;
+    }
+     form div{
+         margin-left: 55px;
+    }
+     label{
+         font-weight: 400;
+         font-family: 'Cantarell', sans-serif;
+         display: block;
+         font-size: 18px;
+         color: #2d2824;
+    }
+     textarea{
+         background-color: #faefef;
+         border: 1px solid #000000;
+         line-height: 30px;
+         max-width: 438px;
+         min-width: 438px;
+         max-height: 150px;
+         min-height: 150px;
+    }
+     input{
+         background-color: #faefef;
+         border: 1px solid #000000;
+         line-height: 30px;
+         width: 438px;
+    }
+     .name label{
+         padding-bottom: 15px;
+    }
+     .email label{
+         padding-bottom: 15px;
+         padding-top: 10px;
+    }
+     .message label{
+         padding-bottom: 15px;
+         padding-top: 10px;
+    }
+     .check-box{
+         margin-top: 15px;
+         margin-bottom: 25px;
+    }
+     .check-box{
+         display: flex;
+    }
+     .check-box input{
+         border: 1px solid #000000;
+         max-width: 17px;
+         min-width: 17px;
+         max-height: 17px;
+         min-height: 17px;
+         margin-right: 15px;
+    }
+     .send-button{
+         margin: 0px 0px 35px 180px;
+    }
+     .send-button button{
+         background-color: #f15156;
+         border: 0;
+         color: #faefef;
+         font-family: 'Cantarell', sans-serif;
+         font-size: 24px;
+         border-radius: 5px;
+         display: inline-block;
+         padding: 15px 78px 15px 68px;
+    }
+     .send-button button:hover {
+         text-decoration: underline;
+         cursor: pointer;
+    }
+    

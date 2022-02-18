@@ -1,0 +1,90 @@
+/*Multiple element selector*/
+
+body,
+h1,
+h2,
+p
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*element selectors*/
+
+body
+{
+	font-family: verdana, sans-serif;
+	color: #111111;
+}
+
+header
+{
+	padding: 48px;
+	color: #696969;
+	border-bottom: 1px solid #dedede;
+}
+
+h1
+{
+	font-size: 72px;
+}
+
+h2
+{
+	color: #ff0000;
+}
+
+
+section
+{
+	font-family: aerial, sans-serif;
+	width: 800px;
+	margin: 48px;
+}
+
+footer
+{
+	padding: 48px;
+	background-color: #dedede;
+}
+
+
+/*Descendant Selector*/
+
+main p
+{
+	color: #333333;
+}
+
+
+
+
+/*Class Selectors*/
+
+.daily-special
+{
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.special
+{
+	color: red;
+	
+}
+
+.menu-items
+{
+	font-family: courier, serif;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 24px;
+	border: 3px dotted red;
+	width: 600px;
+	padding: 24px;
+	background-color: #F4F4F4;
+}

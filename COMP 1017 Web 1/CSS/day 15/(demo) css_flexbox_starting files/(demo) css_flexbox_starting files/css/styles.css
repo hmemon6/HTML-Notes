@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, sans-serif;
+    /*apply rgb background-color*/
+    background-color: rgb(3, 252, 252);
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5;
+    /*background-color: blue;*/
+}
+/*style <h1>*/
+h1
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+/* display: flex; defines a flex container 
+all direct children in a flex container 
+become flex items*/
+.flex
+{
+    display: flex;
+}
+
+/*add background-color to main element. 
+Add 20px padding (top & bottom)
+to the main*/
+main
+{
+    background-color: grey;
+    padding: 20px;
+}
+
+
+/*style paint classes - find widths*/
+/*20 px X2 from the main = 40px
+20px margin-right on red-paint class
+960-40-20 = 900px
+900px divide by 2 = 450 */
+
+.red-paint
+{
+    background-color: red;
+    height: 300px;
+    margin-right: 20px;
+    width: 450px;
+
+}
+.blue-paint
+{
+    background-color: blue;
+    height: 300px;
+    width: 450px;
+}
+
+/*3 boxes
+20 px X2 from the main = 40px
+960 - 40 = 920 px 
+20 px margin right on the orange and green boxes = 40
+920 - 40  = 880 px
+880/3 = 292.33333333px
+*/
+
+.orange-paint
+{
+    height: 150px;
+    background-color: orange;
+    margin-right: 20px;
+    width: 292.33333333px;
+}
+.yellow-paint
+{
+    height: 150px;
+    background-color: yellow;
+    width: 292.33333333px;
+    margin-right: 20px;
+}
+
+.green-paint
+{
+    height: 150px;
+    background-color: green;
+    
+    width: 292.33333333px;
+}
+
+
+.orange-paint,
+.green-paint,
+.yellow-paint
+{
+    margin-top: 30px;
+    
+}
